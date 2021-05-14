@@ -132,7 +132,7 @@ nav li a:hover::after
 {
     position: absolute;
     background-color: #F7F7F5;
-    top:10.9%;
+    margin-top:10px;
 
 }
 .stacmenu
