@@ -134,8 +134,9 @@ nav li a:hover::after
     background-color: #F7F7F5;
     margin-top:10px;
     padding: 15px 15px 15px 15px;
-    background-color: #DBDBD0;
+    background-color: #f1f1ec;
     border-radius: 10px;
+    border: 0.3px grey;
 }
 .stacmenu
 {
