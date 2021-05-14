@@ -44,9 +44,6 @@ nav
  height: 0px;
 }
 
-.main-menu{
-  background-color: yellow;
-}
 .submenu li
 {
     opacity: 0;
