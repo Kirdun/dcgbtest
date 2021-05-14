@@ -7,7 +7,7 @@ a
 header
 {
     font-family: 'Roboto',sans-serif;
- 
+
 }
 
 .fa-map-marker-alt:hover
@@ -28,13 +28,13 @@ nav
 {
     display: flex;
     align-items: center;
-  
+
 }
-.main-ul li 
+.main-ul li
 {
     margin-right: 60px;
     list-style: none;
-   
+
 }
 /* .main-ul li a img
 {
@@ -44,7 +44,9 @@ nav
  height: 0px;
 }
 
-
+.main-menu{
+  background-color: red;: 
+}
 .submenu li
 {
     opacity: 0;
@@ -139,7 +141,7 @@ nav li a:hover::after
 .stacmenu
 {
     position: absolute;
-    
+
     background-color: #F7F7F5;
 }
 .polmenu li
