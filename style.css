@@ -1,0 +1,150 @@
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+header
+{
+    font-family: 'Roboto',sans-serif;
+ 
+}
+
+.fa-map-marker-alt:hover
+{
+    color:black;
+}
+nav
+{
+  display: flex;
+    background-color: #F7F7F5;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.main-ul
+{
+    display: flex;
+    align-items: center;
+  
+}
+.main-ul li 
+{
+    margin-right: 60px;
+    list-style: none;
+   
+}
+/* .main-ul li a img
+{
+} */
+#logo li a::after
+{
+ height: 0px;
+}
+
+
+.submenu li
+{
+    opacity: 0;
+    visibility: hidden;
+    transition: .55s opacity, .55s visibility;
+}
+.submenu.open li
+{
+    opacity: 1;
+    visibility: visible;
+}
+.fas.fa-bars:hover
+{
+cursor: pointer;
+}
+.submenu
+{
+    height:0px;
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+}
+.info li
+{
+
+    list-style: none;
+    padding: 5px;
+}
+.info li i
+{
+    margin-right: 7px;
+}
+nav li a
+{
+    position: relative;
+}
+nav li a::after
+{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+
+}
+nav li a::after
+{
+  transition: all .5s;
+}
+nav li a:hover {
+  color: #555;
+}
+nav li a:hover::after
+{
+    width: 100%;
+}
+.polmenu,.stacmenu,.news
+{
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .55s opacity, .55s visibility;
+}
+.polmenu.open,.stacmenu.open
+{
+    opacity: 1;
+    visibility: visible;
+
+}
+#polmenu li,#stacmenu li
+{
+    cursor: pointer;
+
+}
+
+.polmenu
+{
+    position: absolute;
+    background-color: #F7F7F5;
+    top:10.9%;
+
+}
+.stacmenu
+{
+    position: absolute;
+    
+    background-color: #F7F7F5;
+}
+.polmenu li
+{
+
+    padding: 5px;
+    text-align: left;
+}
